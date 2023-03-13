@@ -29,7 +29,14 @@ Local-Environment setup for windows: Download the latest version of R from R-3.2
 ### LINUX
 
 R is available as a binary for many versions of Linux at the location [https://cran.r-project.org/bin/linux].
-The instruction to install Linux varies from flavor to flavor. These steps are mentioned under each type of Linux version in the mentioned link.However, if you are in a hurry, then you can use yum command to install R as follows: **yum install R**
+The instruction to install Linux varies from flavor to flavor. These steps are mentioned under each type of Linux version in the mentioned link.However, if you are in a hurry, then you can use yum command to install R as follows: **yum install R** (For Arch Linux Btw)
+
+For Debian and Ubuntu Users, you can install R as follows:
+sudo apt update
+sudo apt upgrade
+sudo apt install r-base
+Have fun with R <3 !
+
 
 The above command would install core functionality of the R program along with standard packages.
 
