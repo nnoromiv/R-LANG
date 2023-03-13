@@ -37,6 +37,7 @@ sudo apt upgrade
 sudo apt install r-base
 Have fun with R <3 !
 
+R is available as a binary for many versions of Linux at the location R Binaries(https://cran.r-project.org/bin/linux/)
 
 The above command would install core functionality of the R program along with standard packages.
 
@@ -51,3 +52,18 @@ Inside your R-file use the shortcut **CTRL+SHIFT+S** to run the R-Interactive te
 ### USING LINUX OR WINDOWS R-TERMINAL
 
 Save your file E.G **index.R** then use the following command **Rscript index.R** which would produce the result of the file.
+
+
+Generally, while doing programming in any programming language, you need to use various variables to store various information. Variables are nothing but reserved memory locations to store values. This means that, when you create a variable you reserve some space in memory.
+
+You may like to store information of various data types like character, wide character, integer, floating point, double floating point, Boolean etc. Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory.
+
+In contrast to other programming languages like C and java in R, the variables are not declared as some data type. The variables are assigned with R-Objects and the data type of the R-object becomes the data type of the variable. There are many types of R-objects. The frequently used ones are −
+
+Vectors
+Lists
+Matrices
+Arrays
+Factors
+Data Frames
+The simplest of these objects is the vector object and there are six data types of these atomic vectors, also termed as six classes of vectors. The other R-Objects are built upon the atomic vectors.
