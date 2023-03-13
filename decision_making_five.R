@@ -1,4 +1,4 @@
-#7- R-DECISION-MAKING
+#7 - R-DECISION-MAKING
 # R provides the following types of decision making statements
 
 # 1. IF STATEMENT: which consist of a boolean expression followed by one or more statements
